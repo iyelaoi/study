@@ -1,0 +1,49 @@
+package cn.wqz.nio;
+
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.Selector;
+import java.nio.channels.ServerSocketChannel;
+import java.nio.channels.SocketChannel;
+import java.nio.charset.Charset;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+public class SocketServer {
+
+    public static void main(String[] args) {
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(4, 4,
+                60L, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
+
+        threadPoolExecutor.execute(new Runnable() {
+            @Override
+            public void run() {
+                try(Selector selector = Selector.open();
+                    ServerSocketChannel serverSocketChannel = ServerSocketChannel.open()){
+                    serverSocketChannel.bind(new InetSocketAddress(InetAddress.getLocalHost(), 9999));
+                    serverSocketChannel.configureBlocking(false);
+                    serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
+                    while(true){
+                        selector.select();
+                        Set<SelectionKey> selectionKeys = selector.selectedKeys();
+                        Iterator<SelectionKey> iterator = selectionKeys.iterator();
+                        while(iterator.hasNext()){
+                            SelectionKey key = iterator.next();
+                            try(SocketChannel channel = ((ServerSocketChannel)key.channel()).accept()){
+                                channel.write(Charset.defaultCharset().encode("你好，wqz"));
+                            }
+                            iterator.remove();
+                        }
+                    }
+                }catch (IOException e){
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
+}
