@@ -27,3 +27,6 @@ hs_err_pid*
 /target/*
 *.iml
 .settings/*
+wqz_github_ssh_key
+wqz_github_ssh_key.pub
+.idea/workspace.xml
