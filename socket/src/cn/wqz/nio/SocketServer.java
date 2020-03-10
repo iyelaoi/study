@@ -29,13 +29,17 @@ public class SocketServer {
                     serverSocketChannel.configureBlocking(false);
                     serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
                     while(true){
-                        selector.select();
+                        selector.select(); // 阻塞， 选择器中有事件发生
+                        // 获取事件集合
                         Set<SelectionKey> selectionKeys = selector.selectedKeys();
                         Iterator<SelectionKey> iterator = selectionKeys.iterator();
+                        // 遍历事件 key
                         while(iterator.hasNext()){
-                            SelectionKey key = iterator.next();
-                            try(SocketChannel channel = ((ServerSocketChannel)key.channel()).accept()){
-                                channel.write(Charset.defaultCharset().encode("你好，wqz"));
+                            SelectionKey key = iterator.next(); // 获取事件
+
+                            // 处理事件
+                            try(SocketChannel channel = ((ServerSocketChannel)key.channel()).accept()){ // 获取事件Channel
+                                channel.write(Charset.defaultCharset().encode("你好，wqz")); // channel 读写
                             }
                             iterator.remove();
                         }
