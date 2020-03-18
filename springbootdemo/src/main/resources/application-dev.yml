@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: 461299
+    url: jdbc:mysql://localhost:3306/wqz?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: cn.wqz.springboot.entity
+
+#showSql
+logging:
+  level:
+    com:
+      example:
+        mapper : debug
