@@ -2,25 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73ad5188-80e7-4946-a865-62b7af7899df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/file/src/cn/wqz/io/Channel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui/src/jedl.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui/src/jedl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/src/cn/wqz/nio/select/NioDiscardClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/src/cn/wqz/nio/select/NioDiscardServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/src/cn/wqz/nio/select/NioReceiveServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/src/cn/wqz/reactor/EchoServerReactor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/src/cn/wqz/simple/ConnectionPerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/src/cn/wqz/simple/Reactor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/cn/wqz/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thead/pool/ThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/collection/CopyOnWriteArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huawei/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/GCSeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/OOMMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/OOMMonitor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/demos/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/DirectBufferMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/GCOverheadLimitExceeded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/JavaHeapSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/Matespace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/UnableToCreateNewNativeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/params/PrintParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/params/TestVMParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/PhantomReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/SoftReferenceCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/SoftReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/WeakDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/WeakHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/WeakReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/stack/BlockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/stack/ObjectWaitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/stack/StackOOMDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/stack/StackOverDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/stack/WaitingOnConditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatisdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatisdemo/src/main/java/cn/wqz/jdbc/JDBCDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redisdemos/javademo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redisdemos/javademo/src/main/java/cn/wqz/redis/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redisdemos/javademo/src/main/java/cn/wqz/redis/java/JedisList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redisdemos/javademo/src/main/java/cn/wqz/redis/java/JedisString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redisdemos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking/src/cn/wqz/thinking/annotation/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking/src/cn/wqz/thinking/string/ThreatAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking/src/cn/wqz/thinking/thread/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking/src/cn/wqz/thinking/thread/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking/src/cn/wqz/thinking/thread/DelayQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking/src/cn/wqz/thinking/thread/InterruptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking/src/cn/wqz/thinking/thread/MyThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking/src/cn/wqz/thinking/thread/PriorityBlockingQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking/src/cn/wqz/thinking/thread/ScheduledThreadPoolExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinking/src/cn/wqz/thinking/thread/SemaphoreDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/atomicreference/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/ABADemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/AQSDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/AtomicDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/AtomicIntegerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/AtomicReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/CASDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/MyAtomicInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/blockingqueues/ArrayBlockingQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/blockingqueues/SynchronicBlockingQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/locks/Conditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/locks/Conditions2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/locks/LockDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/finals/FinalConnstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/model/SingleStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/model/StringEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/volatiles/Ordering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/volatiles/Visuality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/src/cn/wqz/io/SimpleFileIo.java" beforeDir="false" afterPath="$PROJECT_DIR$/file/src/cn/wqz/io/SimpleFileIo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/src/cn/wqz/nio/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/src/cn/wqz/nio/SocketServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/cn/wqz/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettyinaction/src/main/java/cn/wqz/java/buffer/CompositeBufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/nettyinaction/src/main/java/cn/wqz/java/buffer/CompositeBufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signal/runtip " beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/cn/wqz/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/cn/wqz/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/cn/wqz/thead/pool/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/pool/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/collection/CopyOnWriteArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/collection/CopyOnWriteArrayDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/mybatisdemo/target/" />
+    <ignored path="$PROJECT_DIR$/jvm/target/" />
+    <ignored path="$PROJECT_DIR$/redisdemos/target/" />
+    <ignored path="$PROJECT_DIR$/redisdemos/javademo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,41 +118,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/simple/Reactor.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/CallableDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/nio/select/NioReceiveServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7961">
-              <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
-              <folding>
-                <element signature="e#15020#15021#0" expanded="true" />
-                <element signature="e#15084#15085#0" expanded="true" />
-                <element signature="e#15704#15705#0" expanded="true" />
-                <element signature="e#15770#15771#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="218">
+              <caret line="19" column="92" lean-forward="true" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -104,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/FutureTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4218">
-              <caret line="259" column="13" selection-start-line="259" selection-start-column="13" selection-end-line="259" selection-end-column="13" />
+            <state relative-caret-position="194">
+              <caret line="62" column="52" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -113,8 +139,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/RunnableFuture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="47" column="31" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="31" />
+            <state relative-caret-position="95">
+              <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -122,63 +157,60 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/Future.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+            <state relative-caret-position="190">
+              <caret line="67" column="53" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/nio/channels/SelectionKey.java">
+        <entry file="file://$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/blockingqueues/ArrayBlockingQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6726">
-              <caret line="386" column="30" selection-start-line="386" selection-start-column="24" selection-end-line="386" selection-end-column="30" />
+            <state relative-caret-position="161">
+              <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
               <folding>
-                <element signature="e#14132#14133#0" expanded="true" />
-                <element signature="e#14192#14193#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/reactor/EchoServerReactor.java">
+        <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/AbstractQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding>
-                <element signature="docComment;class#EchoServerReactor#0" />
-                <element signature="class#EchoServerReactor#0" />
-                <element signature="method#EchoServerReactor#0;class#EchoServerReactor#0" />
-                <element signature="method#run#0;class#EchoServerReactor#0" />
-                <element signature="method#dispatch#0;class#EchoServerReactor#0" />
-                <element signature="class#AcceptorHandler#0;class#EchoServerReactor#0" />
-                <element signature="method#main#0;class#EchoServerReactor#0" />
-                <element signature="docComment;class#EchoHandler#0" />
-                <element signature="class#EchoHandler#0" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="114" column="21" lean-forward="true" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/src/cn/wqz/Test.java">
+        <entry file="file://$PROJECT_DIR$/thinking/src/cn/wqz/thinking/thread/DelayQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-              <folding>
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/Vector.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/blockingqueues/SynchronicBlockingQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+            <state relative-caret-position="110">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/SynchronousQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-99">
+              <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+              <folding>
+                <element signature="e#38470#38471#0" expanded="true" />
+                <element signature="e#38527#38528#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,6 +231,7 @@
       <find>connect</find>
       <find>AppClass</find>
       <find>BootStrapClassLoader</find>
+      <find>incre</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,40 +241,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jndi/src/cn/wqz/DNSQuery.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/SocketServer.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/SocketTest.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/SocketClient.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/simple/SocketTest.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/simple/SocketServer.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/simple/SocketClient.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/simple/SocketMessageExchanger.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/nio/SocketClient.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/aio/SockerServer.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/aio/SocketClient.java" />
-        <option value="$PROJECT_DIR$/rmi/src/cn/wqz/remote/IRemote.java" />
-        <option value="$PROJECT_DIR$/rmi/src/cn/wqz/remote/IRemoteImpe.java" />
-        <option value="$PROJECT_DIR$/rmi/src/cn/wqz/client/RMIClient.java" />
-        <option value="$PROJECT_DIR$/rmi/src/cn/wqz/remote/IRemoteImpl.java" />
-        <option value="$PROJECT_DIR$/rmi/src/cn/wqz/server/RMIServer.java" />
-        <option value="$PROJECT_DIR$/test/src/cn/wqz/IpInfo.java" />
-        <option value="$PROJECT_DIR$/test/src/cn/wqz/IpLocation.java" />
-        <option value="$PROJECT_DIR$/test/src/cn/wqz/IpQuery.java" />
-        <option value="$PROJECT_DIR$/test/src/cn/wqz/Demo.java" />
-        <option value="$PROJECT_DIR$/test/src/cn/wqz/Demo2.java" />
-        <option value="$PROJECT_DIR$/test/src/cn/wqz/Demo1.java" />
-        <option value="$PROJECT_DIR$/file/src/cn/wqz/io/Channel.java" />
-        <option value="$PROJECT_DIR$/1.txt" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/nio/SocketServer.java" />
-        <option value="$PROJECT_DIR$/file/src/cn/wqz/io/SimpleFileIo.java" />
-        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thead/pool/ThreadPoolDemo.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/nio/select/NioDiscardServer.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/nio/select/NioDiscardClient.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/nio/select/NioReceiveServer.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/simple/ConnectionPerThread.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/simple/Reactor.java" />
-        <option value="$PROJECT_DIR$/socket/src/cn/wqz/reactor/EchoServerReactor.java" />
-        <option value="$PROJECT_DIR$/test/src/cn/wqz/Test.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/WeakDemo.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/SoftReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/SoftReferenceCache.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/Student.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/AtomicDemo.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/AQSDemo.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/AtomicIntegerDemo.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/CASDemo.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/MyAtomicInteger.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/model/SingleStudent.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/model/Student.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/cas/AtomicReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/atomicreference/Demo1.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/locks/LockDemo1.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/finals/FinalConnstructor.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/blockingqueues/BlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/model/StringList.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/model/StringEnum.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/collection/CopyOnWriteArrayDemo.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/stack/ObjectWaitDemo.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/locks/Conditions.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/locks/Conditions2.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/params/PrintVMParam.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/demos/Demo1.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/params/TestVMParams.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/WeakHashMapDeno.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/WeakHashMapDemo.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/WeakReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/PhantomReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/stack/StackOverDemo.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/stack/StackOOMDemo.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/HeapSpaceDemo.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/JavaHeapSpace.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/GCOverheadLimitExceeded.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/DirectBufferMemory.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/Demo.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/UnableToCreateNewNativeThread.java" />
+        <option value="$PROJECT_DIR$/jvm/pom.xml" />
+        <option value="$PROJECT_DIR$/redisdemos/pom.xml" />
+        <option value="$PROJECT_DIR$/redisdemos/javademo/pom.xml" />
+        <option value="$PROJECT_DIR$/redisdemos/javademo/src/main/java/cn/wqz/redis/java/JedisString.java" />
+        <option value="$PROJECT_DIR$/redisdemos/javademo/src/main/java/cn/wqz/redis/java/JedisList.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/Matespace.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/OOMMonitor.java" />
+        <option value="$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/GCSeter.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/threads/CallableDemo.java" />
+        <option value="$PROJECT_DIR$/huawei/src/Main.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/blockingqueues/ArrayBlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/thinking/src/cn/wqz/thinking/thread/DelayQueueDemo.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/blockingqueues/SynchronicBlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/CallableDemo.java" />
       </list>
     </option>
   </component>
@@ -252,6 +302,11 @@
         <option name="userSettingsFile" value="D:\java\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -260,11 +315,14 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1382" />
+    <option name="x" value="4" />
+    <option name="y" value="40" />
+    <option name="width" value="1380" />
     <option name="height" value="735" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -276,22 +334,29 @@
           <expand>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wqz" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -301,16 +366,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/tool/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -324,13 +393,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NioDiscardClient">
-    <configuration name="Channel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.wqz.io.Channel" />
-      <module name="file" />
+  <component name="RunManager" selected="Application.CallableDemo">
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.wqz.thread.concurrent.CallableDemo" />
+      <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.wqz.io.*" />
+          <option name="PATTERN" value="cn.wqz.thread.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,12 +407,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.wqz.Demo1" />
-      <module name="test" />
+    <configuration name="GCSeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.wqz.jvm.memory.GCSeter" />
+      <module name="jvm" />
+      <option name="VM_PARAMETERS" value="-XX:+UseG1GC -XX:MaxGCPauseMillis=100 -XX:G1HeapRegionSize=1024 -XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.wqz.*" />
+          <option name="PATTERN" value="cn.wqz.jvm.memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,12 +421,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NioDiscardClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.wqz.nio.select.NioDiscardClient" />
-      <module name="socket" />
+    <configuration name="JedisList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.wqz.redis.java.JedisList" />
+      <module name="javademo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.wqz.nio.select.*" />
+          <option name="PATTERN" value="cn.wqz.redis.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,12 +434,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NioDiscardServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.wqz.nio.select.NioDiscardServer" />
-      <module name="socket" />
+    <configuration name="JedisString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.wqz.redis.java.JedisString" />
+      <module name="javademo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.wqz.nio.select.*" />
+          <option name="PATTERN" value="cn.wqz.redis.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,12 +447,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.wqz.Test" />
-      <module name="test" />
+    <configuration name="Matespace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.wqz.jvm.memory.ooms.Matespace" />
+      <module name="jvm" />
+      <option name="VM_PARAMETERS" value="-XX:MetaspaceSize=10M -XX:MaxMetaspaceSize=10M -XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.wqz.*" />
+          <option name="PATTERN" value="cn.wqz.jvm.memory.ooms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,13 +461,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Matespace" />
+      <item itemvalue="Application.JedisString" />
+      <item itemvalue="Application.JedisList" />
+      <item itemvalue="Application.GCSeter" />
+      <item itemvalue="Application.CallableDemo" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NioDiscardClient" />
-        <item itemvalue="Application.NioDiscardServer" />
-        <item itemvalue="Application.Channel" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.CallableDemo" />
+        <item itemvalue="Application.GCSeter" />
+        <item itemvalue="Application.Matespace" />
+        <item itemvalue="Application.JedisList" />
+        <item itemvalue="Application.JedisString" />
       </list>
     </recent_temporary>
   </component>
@@ -446,33 +524,47 @@
       <workItem from="1579067969347" duration="1250000" />
       <workItem from="1579095305410" duration="6597000" />
       <workItem from="1580957263299" duration="623000" />
+      <workItem from="1583842402193" duration="12910000" />
+      <workItem from="1584053951279" duration="10647000" />
+      <workItem from="1584155454355" duration="34882000" />
+      <workItem from="1584583214793" duration="2413000" />
+      <workItem from="1584694840967" duration="10829000" />
+      <workItem from="1584866311399" duration="11877000" />
+      <workItem from="1585128980579" duration="1671000" />
+      <workItem from="1585221166545" duration="1567000" />
+      <workItem from="1585290907150" duration="13800000" />
+      <workItem from="1585370185702" duration="21262000" />
+      <workItem from="1585547246929" duration="47716000" />
+      <workItem from="1585753817639" duration="22232000" />
+      <workItem from="1586070168567" duration="5193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84506000" />
+    <option name="totallyTimeSpent" value="281505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.57377046" visible="true" weight="0.25435275" />
-      <window_info id="Structure" order="1" sideWeight="0.4262295" side_tool="true" visible="true" weight="0.25435275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.65737706" visible="true" weight="0.2344932" />
+      <window_info id="Structure" order="1" sideWeight="0.34262297" side_tool="true" visible="true" weight="0.2344932" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Compare Directories" order="7" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32786885" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3967213" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.26065573" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.6393443" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.12131148" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -480,7 +572,7 @@
       <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.28971255" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Maven" order="5" weight="0.32980332" />
@@ -490,138 +582,265 @@
       <window_info anchor="right" id="ASMPlugin" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2643857" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74050635" visible="true" weight="0.24130106" />
+      <window_info id="Structure" order="1" sideWeight="0.26105264" side_tool="true" weight="0.24810892" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info id="Compare Directories" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3294509" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.41621622" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.25245902" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.6393443" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.12131148" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="JProfiler" order="13" weight="0.21800433" />
+      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.28971255" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32980332" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="ASMPlugin" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="ProcessAttachRunConfigurationType">
+        <watch expression="timed" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/src/cn/wqz/IpQuery.java" />
-    <entry file="uml://JAVA/cn.wqz.Demo1">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>cn.wqz.Demo1</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-189.0" y="14.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/cn.wqz.Demo">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>cn.wqz.Demo</OriginalElement>
-          <nodes>
-            <node x="33.666666666666664" y="237.0">cn.wqz.Test</node>
-            <node x="32.25" y="0.0">cn.wqz.Demo</node>
-            <node x="0.0" y="158.0">cn.wqz.Demo2</node>
-            <node x="29.25" y="79.0">cn.wqz.Demo1</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="cn.wqz.Demo2" target="cn.wqz.Demo1">
-              <point x="-18.5" y="-14.5" />
-              <point x="18.5" y="133.0" />
-              <point x="38.5" y="133.0" />
-              <point x="-27.75" y="14.5" />
-            </edge>
-            <edge source="cn.wqz.Test" target="cn.wqz.Demo1">
-              <point x="8.5" y="-14.5" />
-              <point x="76.16666666666666" y="212.0" />
-              <point x="84.5" y="212.0" />
-              <point x="84.5" y="133.0" />
-              <point x="75.5" y="133.0" />
-              <point x="9.25" y="14.5" />
-            </edge>
-            <edge source="cn.wqz.Test" target="cn.wqz.Demo2">
-              <point x="-25.5" y="-14.5" />
-              <point x="42.166666666666664" y="212.0" />
-              <point x="18.5" y="212.0" />
-              <point x="-18.5" y="14.5" />
-            </edge>
-            <edge source="cn.wqz.Demo1" target="cn.wqz.Demo">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="94.0" y="227.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/cn/wqz/Demo1.java" />
-    <entry file="file://$PROJECT_DIR$/test/src/cn/wqz/Demo2.java" />
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/jre/lib/rt.jar!/sun/misc/Launcher.class">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/WeakHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
+        <state relative-caret-position="226">
+          <caret line="135" column="24" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="24" />
+          <folding>
+            <element signature="e#9565#9566#0" expanded="true" />
+            <element signature="e#9632#9633#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="73" column="43" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/security/SecureClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/cn/wqz/Demo.java" />
-    <entry file="file://$PROJECT_DIR$/gui/src/jedl.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rmi/src/cn/wqz/remote/IRemoteImpl.java">
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/WeakHashMapDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/lang/ref/PhantomReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="78" column="38" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="38" />
+          <folding>
+            <element signature="e#2393#2394#0" expanded="true" />
+            <element signature="e#2427#2428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/SoftReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/lang/ref/ReferenceQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/WeakDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/SoftReferenceCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="54" column="33" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/WeakReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/reference/PhantomReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/stack/WaitingOnConditionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/stack/StackOverDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/stack/StackOOMDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/JavaHeapSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/GCOverheadLimitExceeded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/DirectBufferMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/UnableToCreateNewNativeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/jvm.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmi/rmi.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisdemos/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7239">
+          <caret line="418" column="32" selection-start-line="418" selection-start-column="32" selection-end-line="418" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/lang/reflect/WeakCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisdemos/javademo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisdemos/javademo/src/main/java/cn/wqz/redis/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Protocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+          <folding>
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisdemos/javademo/src/main/java/cn/wqz/redis/java/JedisString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisdemos/javademo/src/main/java/cn/wqz/redis/java/JedisList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -629,366 +848,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rmi/src/cn/wqz/server/RMIServer.java">
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/ooms/Matespace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rmi/src/cn/wqz/client/RMIClient.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="782" selection-start-line="782" selection-end-line="782" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/io/ObjectStreamClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="685" column="45" lean-forward="true" selection-start-line="685" selection-start-column="45" selection-end-line="685" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="857" column="62" selection-start-line="856" selection-start-column="4" selection-end-line="857" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/nio/channels/FileChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2698">
-          <caret line="174" column="24" selection-start-line="384" selection-start-column="30" selection-end-line="384" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/nio/SocketClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/src/cn/wqz/io/SimpleFileIo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/nio/SocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/aio/SockerServer.java">
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/OOMMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="40" />
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/cn/wqz/jvm/memory/GCSeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/aio/SocketClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/cn/wqz/thead/pool/ThreadPoolDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/nio/channels/SocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="466" column="23" selection-start-line="466" selection-start-column="20" selection-end-line="466" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/collection/CopyOnWriteArrayDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23028">
-          <caret line="1272" column="33" selection-start-line="1272" selection-start-column="23" selection-end-line="1272" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/ThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="67" column="10" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10602">
-          <caret line="603" column="50" selection-start-line="603" selection-start-column="36" selection-end-line="603" selection-end-column="50" />
-          <folding>
-            <element signature="e#15215#15216#0" expanded="true" />
-            <element signature="e#15264#15265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/src/cn/wqz/io/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6935">
-          <caret line="395" column="30" selection-start-line="395" selection-start-column="30" selection-end-line="395" selection-end-column="30" />
-          <folding>
-            <element signature="e#12369#12370#0" expanded="true" />
-            <element signature="e#12420#12421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/nio/HeapByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="69" column="21" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/nio/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5719">
-          <caret line="330" column="18" selection-start-line="330" selection-start-column="18" selection-end-line="330" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/simple/SocketClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/nio/select/NioDiscardServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/simple/SocketMessageExchanger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/nio/select/NioDiscardClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/simple/SocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/simple/ConnectionPerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/nio/channels/SelectableChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="276" column="29" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/Callable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        <state relative-caret-position="258">
+          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/simple/Reactor.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="236">
+          <caret line="120" column="37" lean-forward="true" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="263" column="20" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/cn/wqz/thread/finals/FinalConnstructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huawei/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="180" column="14" lean-forward="true" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="397" column="13" selection-start-line="397" selection-start-column="13" selection-end-line="397" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6812#6813#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#9697#9698#0" expanded="true" />
+            <element signature="e#9732#9733#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/nio/select/NioReceiveServer.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/BlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="251">
+          <caret line="270" column="39" lean-forward="true" selection-start-line="270" selection-start-column="39" selection-end-line="270" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/AbstractQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7961">
-          <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
-          <folding>
-            <element signature="e#15020#15021#0" expanded="true" />
-            <element signature="e#15084#15085#0" expanded="true" />
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="243">
+          <caret line="114" column="21" lean-forward="true" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4218">
-          <caret line="259" column="13" selection-start-line="259" selection-start-column="13" selection-end-line="259" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/RunnableFuture.java">
+    <entry file="file://$PROJECT_DIR$/thinking/src/cn/wqz/thinking/thread/DelayQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="47" column="31" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="31" />
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/SynchronousQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <folding>
+            <element signature="e#38470#38471#0" expanded="true" />
+            <element signature="e#38527#38528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/blockingqueues/ArrayBlockingQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/blockingqueues/SynchronicBlockingQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        <state relative-caret-position="190">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/nio/channels/SelectionKey.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/RunnableFuture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6726">
-          <caret line="386" column="30" selection-start-line="386" selection-start-column="24" selection-end-line="386" selection-end-column="30" />
-          <folding>
-            <element signature="e#14132#14133#0" expanded="true" />
-            <element signature="e#14192#14193#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socket/src/cn/wqz/reactor/EchoServerReactor.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/concurrent/FutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="docComment;class#EchoServerReactor#0" />
-            <element signature="class#EchoServerReactor#0" />
-            <element signature="method#EchoServerReactor#0;class#EchoServerReactor#0" />
-            <element signature="method#run#0;class#EchoServerReactor#0" />
-            <element signature="e#892#1269#0" />
-            <element signature="e#934#1259#1" />
-            <element signature="e#1098#1245#1" />
-            <element signature="e#1287#1331#0" />
-            <element signature="method#dispatch#0;class#EchoServerReactor#0" />
-            <element signature="e#1464#1502#1" />
-            <element signature="class#AcceptorHandler#0;class#EchoServerReactor#0" />
-            <element signature="e#1620#1909#0" />
-            <element signature="e#1739#1895#1" />
-            <element signature="e#1932#1984#0" />
-            <element signature="method#main#0;class#EchoServerReactor#0" />
-            <element signature="docComment;class#EchoHandler#0" />
-            <element signature="class#EchoHandler#0" />
-          </folding>
+        <state relative-caret-position="194">
+          <caret line="62" column="52" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/cn/wqz/Test.java">
+    <entry file="file://$PROJECT_DIR$/thread/src/cn/wqz/thread/concurrent/CallableDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_211/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        <state relative-caret-position="218">
+          <caret line="19" column="92" lean-forward="true" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -1043,7 +1076,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>file</last-edited>
+          <last-edited>mybatisdemo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1054,8 +1087,20 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.google.protobuf:protobuf-java:3.6.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -8,11 +8,13 @@ public class CompositeBufferDemo {
         header.put("header".getBytes());
         header.flip();
         System.out.println(header);
+
         ByteBuffer body = ByteBuffer.allocateDirect(16);
         body.put("body".getBytes());
         body.flip();
         System.out.println(body);
         System.out.println(header.remaining() + " " + body.remaining());
+
         ByteBuffer message = ByteBuffer.allocate(header.remaining() + body.remaining());
         System.out.println(message);
         message.put(header);

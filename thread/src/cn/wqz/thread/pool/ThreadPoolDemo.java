@@ -1,4 +1,4 @@
-package cn.wqz.thead.pool;
+package cn.wqz.thread.pool;
 
 import java.util.concurrent.*;
 
@@ -20,7 +20,7 @@ public class ThreadPoolDemo {
                 10,
                 60,
                 TimeUnit.SECONDS,
-                linkedBlockingQueue,
+                linkedBlockingQueue
 
         );
     }

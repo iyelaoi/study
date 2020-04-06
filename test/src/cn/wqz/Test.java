@@ -1,26 +1,40 @@
 package cn.wqz;
 
-import java.util.Vector;
+import javax.lang.model.util.Elements;
+import java.io.*;
+import java.lang.reflect.Array;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+import java.nio.ByteBuffer;
+import java.nio.channels.FileChannel;
+import java.util.*;
+import java.util.concurrent.TimeUnit;
 
-class A{
-    private void f(){
-        System.out.println("a.f");
+class A implements Serializable{
+    private static A a = new A();
+    private A(){
+        System.out.println("A");
     }
-    private final void g(){
-        System.out.println("a.g");
+
+    public static A getInstance(){
+        if(a == null){
+            a = new A();
+        }
+        return a;
     }
+
+   private Object readResolve(){
+        return a;
+    }
+    private void fun(){}
 }
 
-class B extends A{
+public class Test{
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
 
-    private void f(){
-        System.out.println("b.f");
+        A aa = (A)new ObjectInputStream(new FileInputStream("A.out")).readObject();
+        System.out.println(aa);
     }
-}
 
 
-public class Test {
-    public static void main(String[] args) {
-        Vector
-    }
 }
