@@ -18,12 +18,31 @@ public class Main2 {
      */
     static TreeMap<Integer, TreeSet<Integer>> set = new TreeMap<>();
 
+
     /**
      * 结果集
      *
      */
     static List<Integer[]>[] result = new LinkedList[7];
+
+    /**
+     * 针对从每个节点开始的路径，使用此链表在递归中记录路径，每开始一个新的起始节点，清空此链表
+     * 当满足循环转账条件时，将此链表所表示的路径存到循环转账结果集中
+     */
+    static List<Integer> tempList = new ArrayList<>();
+
+    /**
+     * 当前搜索的根节点
+     * 每开始一个新的起始点，使用新的起始点初始化此属性
+     */
+    static int nowRoot;
+
+    /**
+     * 循环转账结果集总数
+     */
     static int count = 0;
+
+    static final Integer[] CASE_FORMAT = new Integer[0];
 
     /**
      * 搜索算法
@@ -32,6 +51,7 @@ public class Main2 {
      * @param nid 当前访问的节点ID
      * @param l 当前路径深度
      * @param results 用于存储某条路径
+     * @version v2.0
      */
     private static void search(int vid, int nid, int l, Integer[] results){
         if (l > 7) return;
@@ -78,7 +98,43 @@ public class Main2 {
             }
 
         }
+    }
 
+    /**
+     *
+     * @param nid
+     * @param l 路径中的节点数，路径为空时，l=0；将节点加入路径后再进行加1
+     * @version v2.1
+     */
+    private static void search(int nid, int l){
+        // 如果当前路径节点数大于7，终止
+        if(l > 6) return;
+        // 如果当前节点已经存在于当前路径中，终止
+        if(tempList.contains(nid)) return;
+        // 获取当前节点的所有邻接点
+        Set<Integer> nidSet = set.get(nid);
+        // 如果当前节点没有邻接点，终止
+        if (nidSet == null) return;
+        // 将当前节点加入路径
+        tempList.add(nid);
+        l++;
+        for (int nextId : nidSet) {
+            // 如果下一个节点的ID小于起始跟ID，不对此节点进行搜索
+            if (nextId < nowRoot) {
+                continue;
+            }else if (nextId > nowRoot){
+                // 遍历下一个节点
+                search(nextId, l);
+            }else {
+                // 符合条件的环，将其加入结果集
+                if(l > 2){
+                    if(result[l-3] == null) result[l-3] = new LinkedList<>();
+                    result[l-3].add(tempList.toArray(CASE_FORMAT));
+                    count++;
+                }
+            }
+        }
+        tempList.remove(l-1);
     }
 
 
@@ -90,15 +146,12 @@ public class Main2 {
         double start = System.nanoTime();
         loadFile(".\\test_data1.txt", false);
         double read = System.nanoTime();
-        System.out.println("read time:" + (read - start)/1000/1000 + " MS");
 
-       /* // System.out.println(set);
+       // System.out.println(set);
 
-        for (Integer id : set.keySet()){
-            search(id,id, 1, new Integer[0]);
-        }
+        test2();
+
         double search = System.nanoTime();
-        System.out.println("search time:" + (search - read)/1000/1000 + "MS");
 
         System.out.println(count);
         for (int i = 0; i < result.length; i++) {
@@ -108,9 +161,23 @@ public class Main2 {
                     System.out.println(Arrays.toString(ins));
                 }
             }
-        }*/
-        System.out.println(count);
+        }
+        System.out.println("count:" + count);
+        System.out.println("read time:" + (read - start)/1000/1000 + " MS");
+        System.out.println("search time:" + (search - read)/1000/1000 + "MS");
+
     }
+
+    private static void test2(){
+        for (Integer id : set.keySet()){
+            nowRoot = id;
+            tempList.clear();
+            search(id,0);
+        }
+    }
+
+
+
     /**
      * 读取文件
      * @param fileName
