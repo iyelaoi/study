@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+//为true时，一个消息对应一个外部类，为false（默认）时，将所有消息都作为内部类包装在java_outer_classname的类中
+// option java_multiple_files = true;
+
+message Demo{
+    string id = 1;
+    string name = 2;
+    string content = 3;
+}

@@ -18,6 +18,11 @@ public class Main2 {
      */
     static TreeMap<Integer, TreeSet<Integer>> set = new TreeMap<>();
 
+    /**
+     * 节点集
+     * 只会记录出度大于零的节点
+     */
+    static HashSet<Integer> nodeSet = new HashSet<>();
 
     /**
      * 结果集
@@ -42,7 +47,22 @@ public class Main2 {
      */
     static int count = 0;
 
+    /**
+     * 用于集合返回整型数组的辅助参数参数
+     */
     static final Integer[] CASE_FORMAT = new Integer[0];
+
+    /**
+     * 节点入度
+     */
+    static HashMap<Integer, Integer> inNum = new HashMap<>();
+
+    /**
+     * 节点出度
+     */
+    static HashMap<Integer, Integer> outNum = new HashMap<>();
+
+
 
     /**
      * 搜索算法
@@ -107,6 +127,7 @@ public class Main2 {
      * @version v2.1
      */
     private static void search(int nid, int l){
+        if (count % 1000 == 0) System.out.println(count);
         // 如果当前路径节点数大于7，终止
         if(l > 6) return;
         // 如果当前节点已经存在于当前路径中，终止
@@ -138,7 +159,7 @@ public class Main2 {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         /**
          * 1. 数据读取， 并有序化
@@ -146,14 +167,26 @@ public class Main2 {
         double start = System.nanoTime();
         loadFile(".\\test_data1.txt", false);
         double read = System.nanoTime();
+        System.out.println("read time:" + (read - start)/1000/1000 + " MS");
+        System.out.println(nodeSet);
+        clear();
 
        // System.out.println(set);
 
         test2();
 
         double search = System.nanoTime();
-
+        Thread.sleep(1000000);
+        print();
         System.out.println(count);
+
+        System.out.println("count:" + count);
+        System.out.println("read time:" + (read - start)/1000/1000 + " MS");
+        System.out.println("search time:" + (search - read)/1000/1000 + "MS");
+
+    }
+
+    private static void print(){
         for (int i = 0; i < result.length; i++) {
             List<Integer[]> linkedLists = result[i];
             if (linkedLists != null && linkedLists.size()>0) {
@@ -162,10 +195,6 @@ public class Main2 {
                 }
             }
         }
-        System.out.println("count:" + count);
-        System.out.println("read time:" + (read - start)/1000/1000 + " MS");
-        System.out.println("search time:" + (search - read)/1000/1000 + "MS");
-
     }
 
     private static void test2(){
@@ -174,6 +203,53 @@ public class Main2 {
             tempList.clear();
             search(id,0);
         }
+    }
+
+
+    /**
+     * 删除出度为零，或入度为零的节点
+     */
+    private static void clear(){
+        int size = nodeSet.size();
+        long start = System.nanoTime();
+        System.out.println("原size： " + size);
+        boolean flag = true; // 有节点被清理
+        while(flag){
+            flag = false;
+            // 每次遍历出点不为零的节点集合
+            Iterator<Integer> iterator = nodeSet.iterator();
+            while(iterator.hasNext()){
+                Integer id = iterator.next();
+                Integer num = inNum.get(id);
+                if (num == null || num <= 0){ // 该节点入度为零
+                    iterator.remove(); // 将该节点从起始点集合中删除
+                    TreeSet<Integer> set1 = set.get(id);
+                    for (Integer nid : set1){
+                        Integer n = inNum.get(nid); // 被删除节点的下一个节点入度减一
+                        inNum.put(nid, n-1);
+                    }
+                    set.remove(id);  // 将该节点的转账记录删除
+                    flag = true;
+                }
+            }
+        }
+        int size2 = nodeSet.size();
+        System.out.println("清理掉： " + (size2 - size));
+        System.out.println("处理后size： " + size2);
+        System.out.println("清理花费时间：" + (System.nanoTime()-start)/1000/1000 + " MS");
+
+    }
+
+    /**
+     * 进行深度为2的搜索，并记录
+     * 用于减少第七层的递归
+     * 因为平均每个节点的出度为10，所以每个节点在两层之内平均可达100个其他节点
+     * 能够极大的缩减递归次数
+     * @param nid
+     * @param l
+     */
+    private static void search2(int nid, int l){
+
     }
 
 
@@ -201,13 +277,21 @@ public class Main2 {
                 String item[] = line.split(",");
                 int a = Integer.valueOf(item[0]);
                 int b = Integer.valueOf(item[1]);
-
+                Integer n = inNum.get(b);
+                if (n == null){
+                    inNum.put(b, 1);
+                }else{
+                    inNum.put(b, n + 1);
+                }
                 if(set.containsKey(a)){ // 如果以a为起点的转账已经存在
                     set.get(a).add(b); // 将该转账记录直接加在a的转账集后面
+                    outNum.put(a, outNum.get(a)+1);
                 }else { // 新建一个以a，为起始的转账记录
                     TreeSet<Integer> newSet = new TreeSet<>();
                     newSet.add(b); // 将数据插入
                     set.put(a, newSet);
+                    outNum.put(a, 1);
+                    nodeSet.add(a);
                 }
             }
         } catch (IOException exception) {

@@ -1,0 +1,12 @@
+syntax = "proto3";
+package cn.wqz.study.netty.protocol;
+
+option java_package = "cn.wqz.study.netty.protocol";
+//为true时，一个消息对应一个外部类，为false（默认）时，将所有消息都作为内部类包装在java_outer_classname的类中
+// option java_multiple_files = true;
+option java_outer_classname = "MsgProtos";
+
+message Msg{
+    uint32 id = 1;
+    string content = 2;
+}

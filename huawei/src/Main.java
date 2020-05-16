@@ -104,8 +104,8 @@ public class Main {
      * 搜索算法
      * 非递归实现
      * 两个大问题：
-     * 1. 路径的存储
-     * 2. 环导致死循环问题
+     * 1. 路径的存储 （根本不是问题）
+     * 2. 环导致死循环问题（合理的剪枝能够避免死循环）
      */
     static void search(){
         Iterator<Integer> iterator = set.keySet().iterator();

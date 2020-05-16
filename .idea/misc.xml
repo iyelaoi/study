@@ -9,6 +9,13 @@
       <list>
         <option value="$PROJECT_DIR$/mybatisdemo/pom.xml" />
         <option value="$PROJECT_DIR$/redisdemos/pom.xml" />
+        <option value="$PROJECT_DIR$/studynetty/pom.xml" />
+        <option value="$PROJECT_DIR$/studylog/pom.xml" />
+        <option value="$PROJECT_DIR$/studyjson/pom.xml" />
+        <option value="$PROJECT_DIR$/studyprotobuf/pom.xml" />
+        <option value="$PROJECT_DIR$/studyIM/pom.xml" />
+        <option value="$PROJECT_DIR$/studyzookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/studyexcel/pom.xml" />
       </list>
     </option>
   </component>

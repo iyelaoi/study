@@ -1,18 +1,14 @@
 package cn.wqz.nio.select;
 
-import sun.nio.ch.IOUtil;
-
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
-import java.net.Socket;
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
 import java.nio.charset.Charset;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.concurrent.FutureTask;
 
 public class NioReceiveServer {
     private Charset charset = Charset.forName("UTF-8");
@@ -63,12 +59,6 @@ public class NioReceiveServer {
         Client client = clientMap.get(selectionKey.channel());
         SocketChannel socketChannel = (SocketChannel)selectionKey.channel();
         int num = 0;
-        try{
-            buffer.clear();
-            if(null == client.fileName){
-                String fileName = charset.decode(buffer).toString();
-                FutureTask
-            }
-        }catch(){}
+
     }
 }

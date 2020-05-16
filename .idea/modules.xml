@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithms/algorithms.iml" filepath="$PROJECT_DIR$/algorithms/algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crawler/crawler.iml" filepath="$PROJECT_DIR$/crawler/crawler.iml" />
       <module fileurl="file://$PROJECT_DIR$/file/file.iml" filepath="$PROJECT_DIR$/file/file.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/gui.iml" filepath="$PROJECT_DIR$/gui/gui.iml" />
       <module fileurl="file://$PROJECT_DIR$/huawei/huawei.iml" filepath="$PROJECT_DIR$/huawei/huawei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huawei_submit/huawei_submit.iml" filepath="$PROJECT_DIR$/huawei_submit/huawei_submit.iml" />
       <module fileurl="file://$PROJECT_DIR$/redisdemos/javademo/javademo.iml" filepath="$PROJECT_DIR$/redisdemos/javademo/javademo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jndi/jndi.iml" filepath="$PROJECT_DIR$/jndi/jndi.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
@@ -12,6 +15,14 @@
       <module fileurl="file://$PROJECT_DIR$/redisdemos/redisdemos.iml" filepath="$PROJECT_DIR$/redisdemos/redisdemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/rmi/rmi.iml" filepath="$PROJECT_DIR$/rmi/rmi.iml" />
       <module fileurl="file://$PROJECT_DIR$/socket/socket.iml" filepath="$PROJECT_DIR$/socket/socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream/stream.iml" filepath="$PROJECT_DIR$/stream/stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyIM/studyIM.iml" filepath="$PROJECT_DIR$/studyIM/studyIM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyexcel/studyexcel.iml" filepath="$PROJECT_DIR$/studyexcel/studyexcel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyjson/studyjson.iml" filepath="$PROJECT_DIR$/studyjson/studyjson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studylog/studylog.iml" filepath="$PROJECT_DIR$/studylog/studylog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studynetty/studynetty.iml" filepath="$PROJECT_DIR$/studynetty/studynetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyprotobuf/studyprotobuf.iml" filepath="$PROJECT_DIR$/studyprotobuf/studyprotobuf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyzookeeper/studyzookeeper.iml" filepath="$PROJECT_DIR$/studyzookeeper/studyzookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/thinking/thinking.iml" filepath="$PROJECT_DIR$/thinking/thinking.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
